@@ -1,0 +1,9 @@
+---
+apiVersion: packaging.carvel.dev/v1alpha1
+kind: PackageRepository
+metadata:
+  name: simple-package-repo
+spec:
+  fetch:
+    imgpkgBundle:
+      image: ghcr.io/seemiller/simple-app-repo@sha256:646dee6ef257d8f2447edac360d3fa882beaeda57908492cd2771f4d4843a008
